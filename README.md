@@ -13,8 +13,8 @@ The three static site generators under evaulation are in the matching named dire
 
 All three projects will use a similar [Bootswatch](https://bootswatch.com/) theme and should have the same general layout.
 
-### [Hugo](/hugo)
+### [Hugo](compare-sites/hugo)
 
-### [Jekyll](/jekyll)
+### [Jekyll](compare-sites/jekyll)
 
-### [Metalsmith](/metalsmith)
+### [Metalsmith](compare-sites/metalsmith)
