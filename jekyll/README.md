@@ -11,8 +11,6 @@ The links on the site work when running locally, but on gh-pages, you'll need to
 
 To add dynamic content, create a custom template utilizing the template capabilities to read data files from the ```_data``` directory. See the ```_layouts/latestBintrayVersion.html```
 
-2. To add a tutorial, simply add a markdown file in the ```android-tutorials``` directory by running the following command:
-```hugo new android-tutorials/<tutorial-name>```
-By using the ```hugo new``` command, you leverage the [archetype](http://gohugo.io/content/archetypes/) which add boilerplate front matter used by the list renderer.
+2. To add a tutorial, simply add a markdown file in the ```android-tutorials``` directory. Jekyll requires post files to have the following name format: ```YEAR-MONTH-DAY-title.MARKUP```
 
-3. You can add pure html, even html leveraging templates, partials, or block templates (this is contrary to what I reported). One special note though, if you use html, then you can't specify the layout and are at the mercy of the Hugo automatic layout lookup.
+3. You can add pure html, which is the simplest way of adding a page. Create an HTML file in the root directory with name for the page you want to create. You can also organize the pages into subfolders if you are working with several of them. 
