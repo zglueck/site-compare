@@ -1,0 +1,4 @@
+collections:
+  android-tutorials:
+    output: true
+    layout: "project.html"

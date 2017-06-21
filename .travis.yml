@@ -1,3 +1,10 @@
+language: ruby
+rvm:
+- 2.3.3
+
+before_script:
+ - gem install jekyll
+
 # Build the website - queries Bintray and OJO APIs for latest version information
 script:
   - mkdir ./build
@@ -9,6 +16,8 @@ script:
   - cd hugo
   - /tmp/hugo -d ../build/hugo
   - cd ..
+  - mkdir ./build/jekyll
+  - jekyll build --source jekyll/ --destination ./build/jekyll
   
 # Deploy the website - Travis does not invoke this step for pull request builds
 deploy:
