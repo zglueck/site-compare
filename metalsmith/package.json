@@ -1,0 +1,27 @@
+{
+  "name": "metalsmith-ww-demo",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"need tests\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zglueck/site-compare.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zglueck/site-compare/issues"
+  },
+  "homepage": "https://github.com/zglueck/site-compare#readme",
+  "private": true,
+  "dependencies": {
+    "handlebars": "^4.0.5",
+    "metalsmith": "^2.1.0",
+    "metalsmith-layouts": "^1.4.1",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-permalinks": "^0.5.0"
+  }
+}
