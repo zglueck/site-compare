@@ -12,4 +12,4 @@ To add dynamic content, create a custom template utilizing the template capabili
 
 2. To add a tutorial, simply add a markdown file in the ```_android-tutorials``` directory. Be sure to add ```title``` and ```tutorialTitle``` frontmatter to your markdown as these properties are used in the page renderer. As a note, creating additional content is identical between Hugo and Jekyll, the initial setup is a little different.
 
-3. TODO
+3. Similar to Hugo, you can specify pure html with includes. The advantage Jekyll poses is allowing front matter to specified. Front matter can specify the template, unlike Hugo, which reverts to using the directory lookup approach. A prime Jekyll example is the ```index.html``` file at the root.

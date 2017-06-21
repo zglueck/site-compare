@@ -9,6 +9,8 @@ script:
   - cd hugo
   - /tmp/hugo -d ../build/hugo
   - cd ..
+  - mkdir ./build/jekyll
+  - jekyll build --source jekyll/ --destination ./build/jekyll
   
 # Deploy the website - Travis does not invoke this step for pull request builds
 deploy:
