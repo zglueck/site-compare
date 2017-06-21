@@ -1,0 +1,10 @@
+<pre><code class="language-groovy">compile 'gov.nasa.worldwind.android:worldwind:{{ site.data.latestBintrayVersion.name }}'</code></pre>
+For developers, the latest <code>SNAPSHOT</code> version is hosted at <a href="https://oss.jfrog.org/">OJO</a>. Add the repository:
+<pre><code class="language-groovy">repositories (
+    maven (
+        url 'https://oss.jfrog.org/artifactory/oss-snapshot-local/'
+    )
+)</code></pre>
+The latest <code>SNAPSHOT</code> version is:
+<pre><code class="language-groovy">compile 'gov.nasa.worldwind.android:worldwind:{{ site.data.latestOjoVersion.name }}'</code></pre>
+Issues and help can be found at GitHub and the forum.
