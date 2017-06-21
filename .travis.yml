@@ -6,7 +6,9 @@ script:
   - mkdir ./build/hugo
   - curl -OL "https://github.com/gohugoio/hugo/releases/download/v0.23/hugo_0.23_Linux-64bit.tar.gz"
   - tar -xvf hugo_0.23_Linux-64bit.tar.gz -C /tmp/
-  - /tmp/hugo -c hugo/ -d ./build/hugo
+  - cd hugo
+  - /tmp/hugo -d ../build/hugo
+  - cd ..
   
 # Deploy the website - Travis does not invoke this step for pull request builds
 deploy:
