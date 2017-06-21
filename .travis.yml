@@ -3,7 +3,12 @@ script:
   - mkdir ./build
   - cp index.html ./build/
   - cp README.md ./build/
-
+  - mkdir ./build/hugo
+  - curl -OL "https://github.com/gohugoio/hugo/releases/download/v0.23/hugo_0.23_Linux-64bit.tar.gz"
+  - mv hugo_0.23_Linux-64bit.tar.gz /tmp/hugo.tgz
+  - tar -xvf /tmp/hugo.tgz
+  - /tmp/hugo -c hugo/ -d ./build/hugo
+  
 # Deploy the website - Travis does not invoke this step for pull request builds
 deploy:
   provider: pages # Deploy the current directory to the master branch of the repo
