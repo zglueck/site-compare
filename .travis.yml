@@ -10,6 +10,7 @@ script:
   - /tmp/hugo -d ../build/hugo
   - cd ..
   - mkdir ./build/jekyll
+  - gem install jekyll
   - jekyll build --source jekyll/ --destination ./build/jekyll
   
 # Deploy the website - Travis does not invoke this step for pull request builds
