@@ -10,7 +10,7 @@
                 $.get('https://zglueck.github.io/site-compare/README.md')
                 .done(function(jqXhr){
                     var converter = new showdown.Converter();
-                    document.write(converter.makeHtml(jqXhr));
+                    $("#content").innerHtml = converter.makeHtml(jqXhr);
                 })
                 .fail(function(){
                     console.error('README retrieval failure');
@@ -20,5 +20,7 @@
         </script>
     </head>
     <body>
+        <div id="content" class="container">
+        </div>
     </body>
 </html>
