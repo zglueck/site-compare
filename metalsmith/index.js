@@ -2,6 +2,9 @@ var Metalsmith  = require('metalsmith');
 var markdown    = require('metalsmith-markdown');
 var layouts     = require('metalsmith-layouts');
 var permalinks  = require('metalsmith-permalinks');
+var debug       = require('metalsmith-debug');
+var pagination  = require('metalsmith-pagination');
+var inPlace     = require('metalsmith-in-place');
 var request     = require('request');
 
 var metadataBuilder = function () {
@@ -12,6 +15,7 @@ var metadataBuilder = function () {
     addValueAndCheck: function (key, value) {
       metadata[key] = value;
       if (Object.keys(metadata).length >= expectedMetadataValues) {
+        console.log(metadata);
         buildSite(metadata);
       }
     }
@@ -63,6 +67,14 @@ function buildSite (metadata) {
       engine: 'handlebars',
       partials: './layouts/partials'
     }))
+    // .use(pagination({
+    //   'collections.androidTutorials' : {
+    //     template: 'android-tutorial-index.html',
+    //     first: 'android/tutorials/index.html',
+    //     path: 'android-tutorials/:num/index.html'
+    //   }
+    // }))
+    .use(debug())
     .build(function(err, files) {
       if (err) { throw err; }
     });
