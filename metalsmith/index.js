@@ -65,7 +65,7 @@ function buildSite (metadata) {
     .use(markdown())
     .use(collections({
       androidTutorials: {
-        pattern: 'android-tutorial/*',
+        pattern: 'android/tutorials/*',
         sortBy: 'numb'
       }
     }))
