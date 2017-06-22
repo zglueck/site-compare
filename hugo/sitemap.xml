@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/android-tutorials/tutorial07/</loc>
+    <lastmod>2017-06-21T00:34:09-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/android-tutorials/tutorial06/</loc>
+    <lastmod>2017-06-21T00:34:06-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/android-tutorials/tutorial05/</loc>
+    <lastmod>2017-06-21T00:34:03-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/android-tutorials/tutorial04/</loc>
+    <lastmod>2017-06-21T00:34:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/android-tutorials/tutorial03/</loc>
+    <lastmod>2017-06-21T00:33:57-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/android-tutorials/tutorial02/</loc>
+    <lastmod>2017-06-21T00:33:53-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/android-tutorials/tutorial01/</loc>
+    <lastmod>2017-06-21T00:32:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/android/download/</loc>
+    <lastmod>2017-06-21T00:04:55-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/android/</loc>
+    <lastmod>2017-06-21T00:01:08-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/about/</loc>
+    <lastmod>2017-06-20T23:41:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/contact/</loc>
+    <lastmod>2017-06-20T23:41:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/android-tutorials/</loc>
+    <lastmod>2017-06-21T00:34:09-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/android/</loc>
+    <lastmod>2017-06-21T00:04:55-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2017-06-21T00:34:09-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

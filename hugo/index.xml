@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 Jun 2017 00:34:09 -0400</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>World Wind Android</title>
+      <link>http://example.org/android-tutorials/tutorial07/</link>
+      <pubDate>Wed, 21 Jun 2017 00:34:09 -0400</pubDate>
+      
+      <guid>http://example.org/android-tutorials/tutorial07/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>World Wind Android</title>
+      <link>http://example.org/android-tutorials/tutorial06/</link>
+      <pubDate>Wed, 21 Jun 2017 00:34:06 -0400</pubDate>
+      
+      <guid>http://example.org/android-tutorials/tutorial06/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>World Wind Android</title>
+      <link>http://example.org/android-tutorials/tutorial05/</link>
+      <pubDate>Wed, 21 Jun 2017 00:34:03 -0400</pubDate>
+      
+      <guid>http://example.org/android-tutorials/tutorial05/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>World Wind Android</title>
+      <link>http://example.org/android-tutorials/tutorial04/</link>
+      <pubDate>Wed, 21 Jun 2017 00:34:00 -0400</pubDate>
+      
+      <guid>http://example.org/android-tutorials/tutorial04/</guid>
+      <description> Tutorial 04 - Polygons </description>
+    </item>
+    
+    <item>
+      <title>World Wind Android</title>
+      <link>http://example.org/android-tutorials/tutorial03/</link>
+      <pubDate>Wed, 21 Jun 2017 00:33:57 -0400</pubDate>
+      
+      <guid>http://example.org/android-tutorials/tutorial03/</guid>
+      <description> Tutorial 3 - Paths </description>
+    </item>
+    
+    <item>
+      <title>World Wind Android</title>
+      <link>http://example.org/android-tutorials/tutorial02/</link>
+      <pubDate>Wed, 21 Jun 2017 00:33:53 -0400</pubDate>
+      
+      <guid>http://example.org/android-tutorials/tutorial02/</guid>
+      <description>Tutorial 2 - WMTS Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</description>
+    </item>
+    
+    <item>
+      <title>World Wind Android</title>
+      <link>http://example.org/android-tutorials/tutorial01/</link>
+      <pubDate>Wed, 21 Jun 2017 00:32:01 -0400</pubDate>
+      
+      <guid>http://example.org/android-tutorials/tutorial01/</guid>
+      <description>Tutorial 1 - WMS Layer Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</description>
+    </item>
+    
+    <item>
+      <title>World Wind Android</title>
+      <link>http://example.org/android/download/</link>
+      <pubDate>Wed, 21 Jun 2017 00:04:55 -0400</pubDate>
+      
+      <guid>http://example.org/android/download/</guid>
+      <description>To add World Wind to your Gradle project, grab the latest release version from JCenter:
+compile &#39;gov.nasa.worldwind.android:worldwind:0.6.0&#39;  For developers, the lastest SNAPSHOT version is hosted at the OJO. Add the repository:
+repositories ( maven ( url &#39;https://oss.jfrog.org/artifactory/oss-snapshot-local/&#39; ) )  The latest SNAPSHOT version is:
+compile &#39;gov.nasa.worldwind.android:worldwind:0.7.0-SNAPSHOT&#39;  Issues and help can be found at GitHub and the forum.</description>
+    </item>
+    
+    <item>
+      <title>World Wind Android</title>
+      <link>http://example.org/android/</link>
+      <pubDate>Wed, 21 Jun 2017 00:01:08 -0400</pubDate>
+      
+      <guid>http://example.org/android/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://example.org/about/</link>
+      <pubDate>Tue, 20 Jun 2017 23:41:01 -0400</pubDate>
+      
+      <guid>http://example.org/about/</guid>
+      <description>About World Wind is a free, open source API for a virtual globe. Written in Java so as to be cross-platform and easy-to-use, World Wind allows developers to quickly and easily create interactive visualizations of 3D globe, map and geographical information.
+World WindOrganizations across the world use World Wind to monitor weather patterns, visualize cities and terrain, track the movement of planes, vehicles and ships, analyze geospatial data, and educate people about the Earth.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://example.org/contact/</link>
+      <pubDate>Tue, 20 Jun 2017 23:41:01 -0400</pubDate>
+      
+      <guid>http://example.org/contact/</guid>
+      <description>Contact Us 867-5309</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/</guid>
+      <description>Hello, world! This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.
+Learn more &amp;raquo;
+  Heading Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</description>
+    </item>
+    
+  </channel>
+</rss>
