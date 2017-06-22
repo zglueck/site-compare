@@ -7,7 +7,7 @@ The three static site generators under evaulation are in the matching named dire
   - Provide the information at build from an API
 2. Add a Tutorial
   - Add a basic tutorial
-  - Add a more advanced tutorial with html
+  - ~~Add a more advanced tutorial with html~~ (TODO at a later time)
 3. Demonstrate Content Types
   - Add a non-markdown file to the content
 
@@ -24,3 +24,10 @@ All three projects will use a similar [Bootswatch](https://bootswatch.com/) them
 - [Android Tutorial List](site-compare/jekyll/android/tutorials)
 
 ### [Metalsmith](site-compare/metalsmith)
+I didn't get a chance to setup CI publishing. To build the site locally:
+```
+$ cd metalsmith
+$ npm install
+$ node index.js
+```
+Output goes to the ```build``` directory.
