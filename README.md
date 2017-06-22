@@ -13,17 +13,17 @@ The three static site generators under evaulation are in the matching named dire
 
 All three projects will use a similar [Bootswatch](https://bootswatch.com/) theme and should have the same general layout. Due to being sub-folders, the links on the sites themselves will not work. The path ```site-compare``` needs to be injected between the root GitHub pages url and relative path in each project is required. Links to pertanent examples are provided below.
 
-### [Hugo](site-compare/hugo)
-- [Android Project](site-compare/hugo/android)
-- [Android Download](site-compare/hugo/android/download)
-- [Android Tutorial List](site-compare/android-tutorials)
+### [Hugo](https://zglueck.github.io/site-compare/hugo)
+- [Android Project](https://zglueck.github.io/site-compare/hugo/android)
+- [Android Download](https://zglueck.github.io/site-compare/hugo/android/download)
+- [Android Tutorial List](https://zglueck.github.io/site-compare/hugo/android-downloads)
 
-### [Jekyll](site-compare/jekyll)
-- [Android Project](site-compare/jekyll/android)
-- [Android Download](site-compare/jekyll/android/download)
-- [Android Tutorial List](site-compare/jekyll/android/tutorials)
+### [Jekyll](https://zglueck.github.io/site-compare/jekyll)
+- [Android Project](https://zglueck.github.io/site-compare/jekyll/android)
+- [Android Download](https://zglueck.github.io/site-compare/jekyll/android/download)
+- [Android Tutorial List](https://zglueck.github.io/site-compare/jekyll/android/tutorials)
 
-### [Metalsmith](site-compare/metalsmith)
+### Metalsmith
 I didn't get a chance to setup CI publishing. To build the site locally:
 ```
 $ cd metalsmith
