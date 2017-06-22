@@ -72,8 +72,9 @@ function buildSite (metadata) {
     .use(pagination({
       'collections.androidTutorials' : {
         layout: 'android-tutorial-index.html',
-        path: 'android/tutorials/:name/index.html',
-        first: 'android/tutorials/index.html'
+        path: 'android/tutorials/page/:num/index.html',
+        first: 'android/tutorials/index.html',
+        noPageOne: true
       }
     }))
     .use(permalinks())
